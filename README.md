@@ -18,10 +18,9 @@ Make sure you have the following installed:
 
 1. **Clone the repo:**
 
-````bash
+```bash
 git clone https://github.com/your-org/your-repo.git
 cd your-repo
-
 
 2. **Install dependencies:**
 
