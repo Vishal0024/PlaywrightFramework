@@ -5,7 +5,11 @@
     "strict": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "types": ["playwright", "node"]
+    "types": ["playwright", "node"],
+    "paths": {
+      "e2e/*": ["./e2e/*"],
+      "e2e/pages/*": ["./e2e/pages/*"]
+    }
   },
   "include": ["**/*.ts"]
 }
