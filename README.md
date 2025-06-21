@@ -19,8 +19,7 @@ Make sure you have the following installed:
 1. **Clone the repo:**
 
 ```bash
-git clone https://github.com/your-org/your-repo.git
-cd your-repo
+git clone https://github.com/Vishal0024/PlaywrightFramework.git
 ```
 
 2. **Install dependencies:**
