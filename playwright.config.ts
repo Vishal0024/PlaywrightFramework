@@ -31,7 +31,17 @@ export default defineConfig({
   projects: [
     {
       name: "chromium",
-      use: { ...devices["Desktop Chrome"], video: "on" },
+      use: { ...devices["Desktop Chrome"] },
+      testDir: "./e2e/tests/ui",
+    },
+    {
+      name: "firefox",
+      use: { ...devices["Desktop Firefox"] },
+      testDir: "./e2e/tests/ui",
+    },
+    {
+      name: "api",
+      testDir: "./e2e/tests/api",
     },
   ],
 });
