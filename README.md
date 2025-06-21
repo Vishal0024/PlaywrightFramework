@@ -21,17 +21,19 @@ Make sure you have the following installed:
 ```bash
 git clone https://github.com/your-org/your-repo.git
 cd your-repo
+```
 
 2. **Install dependencies:**
 
 ```bash
 npm install
+```
 
-3. **Install Playwright browsers:
+3. **Install Playwright browsers:**
 
 ```bash
 npx playwright install --with-deps
-
+```
 
 ## ✅ Running Tests Locally
 
@@ -39,9 +41,27 @@ npx playwright install --with-deps
 
 ```bash
 npx playwright test
+```
 
 2. **Run only UI tests:**
 
 ```bash
 npx playwright test tests/ui
-````
+```
+3. **Run only API tests:**
+
+```bash
+npx playwright test tests/api
+```
+
+4. **View the HTML report:**
+
+```bash
+npx playwright show-report
+```
+
+## ✅ Running Tests in GitHub Actions
+
+```bash
+.github/workflows/playwright.yml
+```
