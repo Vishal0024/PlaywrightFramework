@@ -22,6 +22,7 @@ Make sure you have the following installed:
 git clone https://github.com/your-org/your-repo.git
 cd your-repo
 
+
 2. **Install dependencies:**
 
 ```bash
@@ -32,11 +33,6 @@ npm install
 ```bash
 npx playwright install --with-deps
 
-4. **Clone the repo:**
-
-```bash
-git clone https://github.com/your-org/your-repo.git
-cd your-repo
 
 ## ✅ Running Tests Locally
 
